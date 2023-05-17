@@ -73,7 +73,7 @@ def api_call():
 
     predicted_data = {i['invoice']: i['predicted_date']
                       for i in predicted_data}
-    # генерируем и списка словарей полноценный словарь , так скорость программы будет быстрее
+    # генерируем из списка словарей полноценный словарь , так скорость программы будет быстрее
 
     for i in locations:
         if i['invoice'] is None:
